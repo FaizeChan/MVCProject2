@@ -12,7 +12,7 @@ namespace MVCProject2.Models
 
         [Key]
         public int ID { get; set; }
-        [Display(Name = "Category")]
+        [Display(Name = "The Category")]
         public string Name { get; set; }
 
         public virtual ICollection<Location> Locations { get; set; }

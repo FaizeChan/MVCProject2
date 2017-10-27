@@ -23,7 +23,7 @@ namespace MVCProject2.Models
 
         //[ForeignKey] is to connect two classes togther
 
-        [ForeignKey("Category"), Display(Name = "Category")]
+        [ForeignKey("Category"), Display(Name = "The Category")]
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
     }
