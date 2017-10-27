@@ -8,6 +8,8 @@ namespace MVCProject2.Models
 {
     public class Category
     {
+        //Are these places real or not.
+
         [Key]
         public int ID { get; set; }
         [Display(Name = "Category")]
