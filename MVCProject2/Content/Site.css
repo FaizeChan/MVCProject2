@@ -23,6 +23,17 @@ textarea {
     max-width: 280px;
 }
 
-h1.MainName {
+.Title {
+    text-align: center;
+    color: white;
+}
+
+.lead {
+    color: white;
     text-align: center;
 }
+
+.btnlead {
+    text-align: center;
+}
+
