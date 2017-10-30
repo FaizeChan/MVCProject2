@@ -69,6 +69,12 @@ textarea {
     text-align: center;
 }
 
+.Edit {
+    color:lightblue;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
 .Details {
     font-family: 'Merienda', cursive;
     text-align: center;
