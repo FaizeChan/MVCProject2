@@ -6,6 +6,7 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    color: lightblue;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -14,6 +15,14 @@
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
+    font-family: 'Merienda', cursive;
+    color: lightblue;
+    white-space: normal;
+}
+
+.form-horizontal {
+    font-family: 'Merienda', cursive;
+    color: lightblue;
     white-space: normal;
 }
 
@@ -49,6 +58,21 @@ textarea {
     text-align: center;
     font-family: 'Merienda', cursive;
 
+}
+
+.DeleteHeader {
+    color:lightblue;
+    text-align: center;
+}
+.Create {
+    color:lightblue;
+    text-align: center;
+}
+
+.Details {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: lightblue;
 }
 
 .ForumLink {
